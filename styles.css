@@ -1,11 +1,11 @@
 /* Background image */
 body {
-    background-image: url("background4.jpeg");
+    background-image: url("saveroom.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: sans-serif; 
-    color: #b4b4b4;
+    color: #fcfcfc;
     margin: 0;
     padding: 0;
 }
@@ -70,8 +70,14 @@ span.highlight {
 
 .column {
   margin-bottom: 20px; 
-  background: #333;
+  background: rgba(0,0,0,0.3);
   padding: 15px;
   border-radius: 10px;
 }
+
+.highlight {
+  color: red;
+  font-weight: bold; /* optional, makes it stand out more */
+}
+
 
