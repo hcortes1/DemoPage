@@ -1,0 +1,62 @@
+/* Background image */
+body {
+    background-image: url("background4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif; 
+    color: #b4b4b4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Zebra-striped table (no borders) */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table tr:nth-child(odd) {
+    background-color: #a0a0a0; /* Light gray */
+}
+
+table tr:nth-child(even) {
+    background-color: #333333; /* White */
+}
+
+table td {
+    padding: 10px;
+}
+
+/* Quote styling */
+div blockquote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: rgb(84, 84, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: darkred; /* Change color on hover */
+    text-decoration: underline;
+}
+
+/* Special highlighted phrases */
+span.highlight {
+    color: red;
+    font-weight: bold;
+}
+
